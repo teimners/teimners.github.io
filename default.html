@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: white;
+      color: black;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      font-size: 32px;
+      font-weight: 500;
+    }
+
+    main {
+      min-height: 60vh;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 40px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    .block {
+      max-width: 300px;
+    }
+
+    .block a {
+      color: black;
+      text-decoration: none;
+      display: block;
+      margin-top: 5px;
+    }
+
+    .block a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  Нормальная музыка
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<div class="footer">
+  <div class="block">
+    <strong>Контакты</strong>
+    <a href="mailto:teim.ners@gmail.com">teim.ners@gmail.com</a>
+    <a href="https://t.me/teimners">t.me/teimners</a>
+  </div>
+
+  <div class="block" style="text-align:right;">
+    <strong>Ссылки</strong>
+    <a href="https://t.me/sueta_282">t.me/sueta_282</a>
+    <a href="https://instagram.com/sueta.gif">instagram.com/sueta.gif</a>
+  </div>
+</div>
+
+</body>
+</html>
