@@ -1,2 +1,2 @@
-# wordstalker.github.io
+# teimners.github.io
 sheesh
